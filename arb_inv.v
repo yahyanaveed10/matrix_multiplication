@@ -9,6 +9,7 @@ real result_scaled,factor;
 reg signed [31:0] augmented[X-1:0][2*X-1:0]; // Augmented matrix (A|I)
 integer i, j, k,max_row;
 //real o ;
+
 initial begin
     // Initialize matrices A with arbitrary random values
     for (i = 0; i < X; i = i + 1) begin

@@ -7,6 +7,7 @@ reg signed [15:0] dot_product [NUM_VECTORS]; // Output array of dot products (16
 reg signed [15:0] temp_product;
 integer i, j;
 
+
 initial begin
     // Assign values to input vectors
     // (You can modify this part to initialize vectors with your desired values)
