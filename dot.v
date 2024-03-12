@@ -13,8 +13,8 @@ initial begin
     // (You can modify this part to initialize vectors with your desired values)
     for (integer i = 0; i < NUM_VECTORS; i = i + 1) begin
         for (integer j = 0; j < VECTOR_LENGTH; j = j + 1) begin
-            a[i][j] = $urandom_range(-10, 10); // Random values between -10 and 10
-            b[i][j] = $urandom_range(-10, 10); // Random values between -10 and 10
+            a[i][j] = $urandom_range(-10, 10) * 1.0; // Random values between -10 and 10
+            b[i][j] = $urandom_range(-10, 10) * 1.0; // Random values between -10 and 10
         end
     end
 
